@@ -274,3 +274,34 @@ s {
   font-size: smaller;
 }
 
+.btn_cart_block {
+  display: flex;
+  flex-direction: row;
+  padding-left: 19rem;
+  padding-top: 1rem;
+}
+
+.button_cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 30px 15px;
+  gap: 10px;
+
+  width: 170px;
+  height: 48px;
+  color: white;
+
+  background: radial-gradient(
+    93.5% 204.81% at 6.5% 94.37%,
+    #f18c53 0%,
+    #f95629 100%
+  );
+
+  border-color: rgba(128, 128, 128, 0.068);
+  border-radius: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
